@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite">
+  <parameter name="first-name" value="Ivan"/>
+  <parameter name="last-name"  value="Ivanov"/>
+  <test name="TestNG Params In XML">
+    <classes>
+      <class name="Example1.xml.ASingeParameterTest"></class>
+      <class name="Example1.xml.ParameterSetUpTest"></class>
+      <class name="Example1.xml.Parameters2Test"></class>
+      <class name="Example1.xml.ParametersExceptionTest"></class>
+      <class name="Example1.xml.ParametersOptionalTest"></class>
+    </classes>
+  </test>
+</suite>
